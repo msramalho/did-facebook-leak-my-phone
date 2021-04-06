@@ -50,12 +50,11 @@ $(function () {
 				return;
 			}
 			display(`deste não deu :)`);
+			return;
 		}
 		display(`-`);
 	}
 
 	$('.search').keyup(lookup);
-
-
 
 });
