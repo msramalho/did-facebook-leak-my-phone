@@ -1,0 +1,38 @@
+body {
+    font-family: "Helvetica Neue", sans-serif;
+}
+
+.search {
+    /* Roundness */
+    border: 1px solid #BABABA;
+    border-radius: 20px;
+    height: 35px;
+    width: 30%;
+    padding: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    background: white;
+
+    /* Fonts and text */
+    font-weight: 500;
+    font-size: 20px;
+    color: #7A7A7A;
+
+    box-shadow: 1px 5px 2px #EDEDED;
+}
+
+
+.search:hover {
+    background: #FCFCFC;
+}
+
+.search:focus {
+    outline: none;
+    background: #FFFFFF;
+    border-color: #7AB0E6;
+}
+
+.center-children {
+    text-align: center;
+}
