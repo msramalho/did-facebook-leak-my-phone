@@ -49,8 +49,8 @@ $(function () {
 				display(`deste deu: <i style='color:#FF5733'>${data[hash].replace(/(^\w{1})|(\s+\w{1})/g, letter => letter.toUpperCase())}</i> :(`);
 				return;
 			}
+			display(`deste não deu :)`);
 		}
-		display(`deste não deu :)`);
 	}
 
 	$('.search').keyup(lookup);
