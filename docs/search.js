@@ -51,6 +51,7 @@ $(function () {
 			}
 			display(`deste não deu :)`);
 		}
+		display(`-`);
 	}
 
 	$('.search').keyup(lookup);
